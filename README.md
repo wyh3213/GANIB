@@ -21,7 +21,7 @@ Graph synergistic and statistics attention networks with information bottleneck 
 ```
 
 
-## 🎯 How to run?
+## How to run?
 ```
 1. The data1 and data2 folders store the association networks, disease and metabolite networks, and initial characterization data for datasets 1 and 2, respectively.
 2. The code folder for implementing the GANIB model, which specifically includes:
