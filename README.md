@@ -19,3 +19,14 @@ Graph synergistic and statistics attention networks with information bottleneck 
 - scipy == 1.13.1
 - matplotlib == 3.9.0
 ```
+
+
+## 🎯 How to run?
+```
+1. The data1 and data2 folders store the association networks, disease and metabolite networks, and initial characterization data for datasets 1 and 2, respectively.
+2. The code folder for implementing the GANIB model, which specifically includes:
+  (1) train.py is used to start the GANIB model and set up parameters, implement training and validation, loss function definition, optimizer selection and parameter update.
+  (2) model.py is used to build the overall structure of the GANIB model.
+  (3) layers.py mainly stores some customized network layers.
+  (4) utils.py mainly realizes data loading, evaluation index calculation and plot, etc.
+```
