@@ -5,10 +5,6 @@ from timm.models.registry import register_model
 from torch import tensor
 from torchsummary import summary
 
-# Rewrite the Stars
-# https://arxiv.org/pdf/2403.19967
-# github：https://github.com/ma-xu/Rewrite-the-Stars
-
 
 class ConvBN(torch.nn.Sequential):
     def __init__(self, in_planes, out_planes, kernel_size=1, stride=1, padding=0, dilation=1, groups=1, with_bn=True):
