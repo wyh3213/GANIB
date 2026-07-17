@@ -227,7 +227,7 @@ def plot_prc_curves(precisions, recalls, prc, directory, name):
     mean_prc = np.mean(prc)
     prc_std = np.std(prc)
     plt.plot(mean_recall, mean_precision, color='BlueViolet', alpha=0.9,
-             label='Mean AUPR: %.4f $\pm$ %.4f' % (mean_prc, prc_std))  # AP: Average Precision
+             label='Mean AUPR: %.4f $\pm$ %.4f' % (mean_prc, prc_std))  
 
     plt.plot([1, 0], [0, 1], linestyle='--', color='black', alpha=0.4)
 
